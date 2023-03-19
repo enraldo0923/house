@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Getting Started with Abbosbek
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is available in GitHub  [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 

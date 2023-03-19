@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Student from "./state"
+import RootContext from './context';
+import "./index.css";
+import Root from './root';
 
-
-const webbrain = ReactDOM.createRoot(document.getElementById("root"));
-webbrain.render(
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
   <React.StrictMode>
-    <Student/>
+    <RootContext>
+    <Root/>
+   </RootContext>
     </React.StrictMode>
 )
 

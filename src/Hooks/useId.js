@@ -1,7 +1,7 @@
 import { useId } from "react";
 
 const useUniqueId=()=>{
-    const id = useId();
+    const id = useId()
    return id;
 
 

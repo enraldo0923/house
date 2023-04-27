@@ -1,13 +1,15 @@
-import { createContext,useReducer } from "react";
-import { reducer } from "./reducer";
 
-const ProportiesContext = createContext();
+import {createContext} from 'react';
 
-
-
-const ProportiesProvider  =({Children})=>{
-    const[state, dispatch] = useReducer(reducer,[])
-    return<ProportiesContext.Provider value={[state,dispatch]}>{Children}</ProportiesContext.Provider>
+const MyContext = createContext();
+const PropertiesProvider =({Children})=>{
+    return<MyContext.Provider value={Children}>
+    {Children}
+   </MyContext.Provider>
 };
 
-export default ProportiesProvider;
+
+
+
+
+export default PropertiesProvider;

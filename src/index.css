@@ -4,11 +4,8 @@
     margin: 0;
     padding: 0;
 };
-
-:root {
---colorPrimary: #0d263b;
---colorSecondary:#696969;
-/* Background color */
---backgroundPrimary: #0061df;
-
+.container {
+    background-color: red;
+    width: 200px;
+    height: 200px;
 }

@@ -1,6 +1,10 @@
 import React from 'react';
+import './index.css';
 import ReactDOM from 'react-dom/client';
-import State from './state';
+import Root from './root';
+import { BrowserRouter } from 'react-router-dom';
+import { RootContext } from './contex/intex';
+
 
 
 
@@ -8,13 +12,11 @@ import State from './state';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-  
-  
-
-   <State/>
-  
-  
-  
+    <BrowserRouter>
+    <RootContext>
+     <Root/>
+    </RootContext>
+    </BrowserRouter>
     </React.StrictMode>
 )
 

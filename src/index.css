@@ -1,0 +1,16 @@
+body {
+font-family: 'Montserrat,san-serif';
+}
+
+* {
+margin: 0;
+padding: 0;
+
+};
+
+:root {
+    --colorPrimary:#0d263b;
+    --colorSecondary : #696969;
+    --background: #0061df;
+    
+}

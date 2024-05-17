@@ -1,6 +1,6 @@
 # Getting Started with Abbosbek
 
-This project is available in GitHub  [Create React App](https://github.com/enraldo0923/Housing-Project).
+This project is available in GitHub  [Create React App](https://github.com/enraldo0923/house).
 
 ## Available Scripts
 
